@@ -9,5 +9,15 @@
       "src": "src/**/*",
       "use": "@vercel/node"
     }
-  ]
+  ],
+  "functions": {
+    "api/*": {
+      "src": "src/api/*.js"
+    },
+    "otherFunction": {
+      "src": "src/otherFunction.js"
+    }
+    // Add more functions as needed
+  }
 }
+
